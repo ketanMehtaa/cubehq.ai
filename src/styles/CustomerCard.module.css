@@ -1,0 +1,22 @@
+.card {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+  /* border-radius: var(--border-radius-md); */
+  margin-bottom: var(--spacing-sm);
+  cursor: pointer;
+  transition: all var(--transition-speed);
+}
+
+.selected {
+  background-color: var(--color-gray-light);
+  /* color: var(--color-white); */
+}
+
+.default {
+  background-color: var(--color-white);
+}
+
+.card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}

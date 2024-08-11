@@ -1,0 +1,21 @@
+.container {
+  padding: var(--spacing-lg);
+}
+
+.heading {
+  font-size: 1.5em;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: var(--spacing-md);
+  transition: transform var(--transition-speed) ease;
+}
+
+.link:hover {
+  transform: translateX(5px);
+}
